@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: #AA00FF;
+}
+
+.profile {
+    width: 170px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-shadow: 2px 2px #546E7A;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #212121;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: right;
+    color: blueviolet;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: deepskyblue;
+}
